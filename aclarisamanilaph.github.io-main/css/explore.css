@@ -1,0 +1,32 @@
+/*MOBILE FIRST VIEW*/
+#row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 12px;
+    vertical-align: middle;
+}
+
+.column {
+    margin-top: 0;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.column .img {
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: rgba(62, 63, 64, 0.7); 
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    backdrop-filter: blur(0.1px);
+}
